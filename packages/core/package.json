@@ -21,7 +21,7 @@
     "access": "public"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "i18next": "^15.0.7",
     "inversify": "^5.0.1",
     "inversify-binding-decorators": "^4.0.0",
