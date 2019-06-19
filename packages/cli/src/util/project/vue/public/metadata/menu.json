@@ -1,0 +1,24 @@
+[
+  {
+    "label": "Home",
+    "name": "home",
+    "icon": "mdi-home",
+    "type": "link",
+    "route": "/"
+  },
+  {
+    "label": "Menu Group",
+    "name": "menu-group",
+    "icon": "mdi-fire",
+    "type": "group",
+    "items": [
+      {
+        "label": "Zeedhi",
+        "name": "zeedhi",
+        "type": "link",
+        "icon": "mdi-library",
+        "route": "/zeedhi"
+      }
+    ]
+  }
+]

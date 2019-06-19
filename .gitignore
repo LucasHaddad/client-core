@@ -1,0 +1,8 @@
+/node_modules
+packages/*/node_modules
+packages/*/coverage
+packages/*/dist
+packages/*/types
+tslint-rules/*.js
+lerna-debug.log
+npm-debug.log

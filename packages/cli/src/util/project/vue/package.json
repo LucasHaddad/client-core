@@ -1,0 +1,44 @@
+{
+  "name": "zeedhi-cli",
+  "version": "0.1.0",
+  "description": "Zeedhi CLI Project",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "npm run lint && vue-cli-service build && workbox injectManifest workbox-config.js",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^3.3.92",
+    "@zeedhi/core": "0.1.0",
+    "@zeedhi/vue": "0.1.0",
+    "@zeedhi-components/vuetify": "0.1.0",
+    "@panter/vue-i18next": "^0.15.0",
+    "i18next": "^15.0.9",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.3",
+    "vuetify": "^1.5.12",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "@vue/cli-plugin-pwa": "^3.6.0",
+    "@vue/cli-plugin-typescript": "^3.6.0",
+    "@vue/cli-plugin-unit-jest": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "ts-jest": "^23.0.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.3",
+    "vue-template-compiler": "^2.5.21",
+    "workbox-cli": "^3.6.3"
+  }
+}
