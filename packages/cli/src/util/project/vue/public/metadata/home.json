@@ -1,0 +1,13 @@
+{
+  "name": "home",
+  "title": "Home",
+  "padding": "0",
+  "fillHeight": true,
+  "widgets": [
+    {
+      "name": "InitialPage",
+      "type": "Home",
+      "cssClass": "content"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "extends": "tslint-config-airbnb",
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "./**/*.json"
+    ]
+  },
+  "rules": {
+    "import-name": false,
+    "max-line-length": [
+      true,
+      125
+    ],
+    "no-empty": true,
+    "no-unused-variable": true,
+    "no-console": true,
+    "sameline-class-decorated-attrs": true,
+    "completed-docs": [ true, "classes" ]
+  },
+  "rulesDirectory": "./tslint-rules"
+}
